@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "records": [
+    {
+      "kind": "school",
+      "id": "north",
+      "revision": 1,
+      "known_at": "2026-10-01T00:00:00Z",
+      "data": {
+        "climate_zone": "temperate",
+        "floor_area": "1200"
+      }
+    },
+    {
+      "kind": "school",
+      "id": "new",
+      "revision": 1,
+      "known_at": "2026-10-01T00:00:00Z",
+      "data": {
+        "climate_zone": "temperate",
+        "floor_area": "800"
+      }
+    },
+    {
+      "kind": "load",
+      "id": "north-previous",
+      "revision": 1,
+      "known_at": "2026-10-01T00:00:00Z",
+      "data": {
+        "school": "north",
+        "target_time": "2026-10-31T23:00:00Z",
+        "kwh": "20"
+      }
+    },
+    {
+      "kind": "weather",
+      "id": "first-1",
+      "revision": 1,
+      "known_at": "2026-10-01T00:00:00Z",
+      "data": {
+        "school": "north",
+        "target_time": "2026-11-01T01:00:00Z",
+        "issued_at": "2026-10-31T20:00:00Z",
+        "temperature": "10"
+      }
+    },
+    {
+      "kind": "weather",
+      "id": "future-1",
+      "revision": 1,
+      "known_at": "2026-11-01T00:30:00Z",
+      "data": {
+        "school": "north",
+        "target_time": "2026-11-01T01:00:00Z",
+        "issued_at": "2026-11-01T00:30:00Z",
+        "temperature": "99"
+      }
+    },
+    {
+      "kind": "calendar",
+      "id": "north-1",
+      "revision": 1,
+      "known_at": "2026-10-01T00:00:00Z",
+      "data": {
+        "school": "north",
+        "target_time": "2026-11-01T01:00:00Z",
+        "day_type": "closed"
+      }
+    }
+  ]
+}

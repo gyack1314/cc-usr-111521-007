@@ -1,0 +1,6 @@
+[project]
+name = "campus-forecast"
+version = "0.1.0"
+description = "业务资料计算与修订视图"
+requires-python = ">=3.11"
+dependencies = []
