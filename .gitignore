@@ -1,3 +1,5 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+# 运行时模型与预测工件存储（由 train/forecast 命令生成）
+store/
